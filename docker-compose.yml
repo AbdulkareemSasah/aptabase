@@ -34,7 +34,7 @@ services:
     ports:
       - 8000:80
     environment:
-      BASE_URL: http://localhost:8000 # replace with your ip or domain, including port if needed
+      BASE_URL: http://ug8go0o.64.226.87.179.sslip.io # replace with your ip or domain, including port if needed
       AUTH_SECRET: c4rI4x8kz5DgKJ1is5Eiu9bNncSQ6ROD # get a strong secret from https://randomkeygen.com/
       DATABASE_URL: Server=aptabase_db;Port=5432;User Id=aptabase;Password=sTr0NGp4ssw0rd;Database=aptabase
       CLICKHOUSE_URL: Host=aptabase_events_db;Port=8123;Username=aptabase;Password=sTr0NGp4ssw0rd
